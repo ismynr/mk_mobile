@@ -1,19 +1,20 @@
-package com.ismynr.submission1;
+package com.ismynr.submission1.activity;
 
-import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class GoFood extends AppCompatActivity {
+import com.ismynr.submission1.R;
+
+public class Shopping extends AppCompatActivity {
 
     Button btnBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_go_food);
+        setContentView(R.layout.activity_shopping);
 
         btnBack = findViewById(R.id.btn_back);
 

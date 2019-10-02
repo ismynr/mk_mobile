@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GoFood">
+    tools:context=".activity.GoFood">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Pesan Makanan"
+            android:text="Ini Adalah Go Food"
             android:textSize="18sp" />
 
     </LinearLayout>

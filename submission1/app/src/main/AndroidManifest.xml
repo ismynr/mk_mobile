@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Shopping"></activity>
-        <activity android:name=".Transport" />
-        <activity android:name=".GoFood" />
-        <activity android:name=".InstantCourier" />
+        <activity android:name=".activity.Shopping"></activity>
+        <activity android:name=".activity.Transport" />
+        <activity android:name=".activity.GoFood" />
+        <activity android:name=".activity.InstantCourier" />
         <activity android:name=".Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
